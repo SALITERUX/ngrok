@@ -1,6 +1,6 @@
 # ngrok
 # install ngrok in termux
 
-$ git clone https://github.com/SALITERUX/ngrok
+$ apt install python3 git -y && git clone https://github.com/SALITERUX/ngrok && cd ngrok && python3 ngrok.py
 
-$ python3 ngrok.py
+
